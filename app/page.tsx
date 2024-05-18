@@ -1,10 +1,10 @@
+import React from "react";
 import ChatAbout from "@/components/ChatAbout";
 import ChatHeader from "@/components/ChatHeader";
 import ChatInput from "@/components/ChatInput";
 import ChatMessages from "@/components/ChatMessages";
 import InitUser from "@/lib/store/initUser";
 import supbaseServer from "@/lib/supabase/server";
-import React from "react";
 
 export default async function page() {
   const supabase = supbaseServer();
